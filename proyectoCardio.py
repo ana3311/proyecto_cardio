@@ -24,7 +24,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def load_file():
-  data = pd.read_csv("cardioBueno.csv",sep=",")
+  data = pd.read_csv("cardio_file.csv",sep=",")
   return data
   
 def modify_atipic_height_values_with_mean(number_of_records, data):
